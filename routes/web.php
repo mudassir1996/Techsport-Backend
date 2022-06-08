@@ -23,6 +23,7 @@ use App\Http\Controllers\User\SecurityController;
 use App\Http\Controllers\User\StatisticsController;
 use App\Http\Controllers\User\TradeStatementController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 
 /*
@@ -36,7 +37,9 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-
+Route::get('/link-storage', function () {
+   Artisan::call('storage:link');
+});
 
 Route::middleware(['auth'])->group(function () {
    Route::get('/', function () {
