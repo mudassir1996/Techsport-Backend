@@ -18,16 +18,19 @@
     <div class="authincation">
         <div class="container h-100">
             <div class="row justify-content-center h-100 align-items-center">
-                
+
                 <div class="col-xl-5 col-md-6">
-                        <div class="mini-logo text-center my-5">
-                            <a href="http://www.algosportsgroup.com/"><img class="w-50" src="{{asset('images/logo.svg')}}" alt=""></a>
-                        </div>
-                        @error('account_locked')
-                        <div class="text-danger p-3" >
+                    <div class="mini-logo text-center my-5">
+                        <a href="{{ env('APP_URL') }}"><img class="w-50" src="{{ asset('images/logo.png') }}"
+                                alt=""></a>
+                    </div>
+                    @error('account_locked')
+                        <div class="text-danger p-3">
                             {{ $message }}
                             <br>
-                            Can you please contact AlgoSports Group at <span class="text-dark">info@algosportsgroup.com</span> or by calling us on <br> <span class="text-dark">0800 0622 952</span>.
+                            Can you please contact AlgoSports Group at <span
+                                class="text-dark">info@algosportsgroup.com</span> or by calling us on <br> <span
+                                class="text-dark">0800 0622 952</span>.
                         </div>
                     @enderror
                     <div class="auth-form card">
@@ -35,27 +38,30 @@
                             <h4 class="card-title">Login</h4>
                         </div>
                         <div class="card-body">
-                            <form method="post" name="myform" class="signin_validate" action="{{route('login')}}">
+                            <form method="post" name="myform" class="signin_validate" action="{{ route('login') }}">
                                 @csrf
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                                     @error('email')
                                         <label class="error" role="alert">
                                             {{ $message }}
                                         </label>
                                     @enderror
-                                    
+
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
-                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                    <input id="password" type="password"
+                                        class="form-control @error('password') is-invalid @enderror" name="password"
+                                        required autocomplete="current-password">
 
-                                @error('password')
-                                    <label class="error" role="alert">
-                                        {{ $message }}
-                                    </label>
-                                @enderror
+                                    @error('password')
+                                        <label class="error" role="alert">
+                                            {{ $message }}
+                                        </label>
+                                    @enderror
                                 </div>
                                 <div class="form-row d-flex justify-content-between mt-4 mb-2">
                                     <div class="form-group mb-0">
@@ -66,28 +72,23 @@
                                         </label>
                                     </div>
                                     <div class="form-group mb-0">
-                                        <a href="{{route('password.request')}}">Forgot Password?</a>
+                                        <a href="{{ route('password.request') }}">Forgot Password?</a>
                                     </div>
                                 </div>
-                                
+
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-primary btn-block">Login</button>
                                 </div>
                             </form>
-                           
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
 @endsection
 @section('scripts')
-<script src="{{asset('vendor/validator/jquery.validate.js')}}"></script>
-<script src="{{asset('vendor/validator/validator-init.js')}}"></script>
+    <script src="{{ asset('vendor/validator/jquery.validate.js') }}"></script>
+    <script src="{{ asset('vendor/validator/validator-init.js') }}"></script>
 @endsection
-

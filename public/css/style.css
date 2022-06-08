@@ -7,7 +7,7 @@
 
 @import url(../vendor/animate/animate.min.html);
 @import url(../vendor/waves/waves.min.html);
-@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&display=swap');
 
 
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap"); */
@@ -42,7 +42,7 @@
     --warning: #FE9431;
     --danger: #FF788E;
     --light: #f8f9fa;
-    --dark: #1F2641;
+    --dark: #155763;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -404,9 +404,9 @@ h6,
 .h6 {
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-family: Industry;
+    font-family: 'Readex Pro';
     line-height: 1.2;
-    color: #1F2641;
+    color: #155763;
 }
 
 h1,
@@ -2550,14 +2550,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #2AD588;
-    border-color: #2AD588;
+    background-color: #9dc938;
+    border-color: #9dc938;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0C2C3B;
-    border-color: #0C2C3B;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-primary:focus,
@@ -2576,8 +2576,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0C2C3B;
-    border-color: #0C2C3B;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2588,8 +2588,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #0C2C3B;
-    border-color: #0C2C3B;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-secondary:hover {
@@ -2606,16 +2606,16 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
     color: #fff;
-    background-color: #0C2C3B;
-    border-color: #0C2C3B;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #0C2C3B;
-    border-color: #0C2C3B;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
@@ -2816,8 +2816,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #1F2641;
-    border-color: #1F2641;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-dark:hover {
@@ -2834,8 +2834,8 @@ fieldset:disabled a.btn {
 .btn-dark.disabled,
 .btn-dark:disabled {
     color: #fff;
-    background-color: #1F2641;
-    border-color: #1F2641;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active,
@@ -3105,14 +3105,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-    color: #1F2641;
-    border-color: #1F2641;
+    color: #155763;
+    border-color: #155763;
 }
 
 .btn-outline-dark:hover {
     color: #fff;
-    background-color: #1F2641;
-    border-color: #1F2641;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-outline-dark:focus,
@@ -3122,7 +3122,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-dark.disabled,
 .btn-outline-dark:disabled {
-    color: #1F2641;
+    color: #155763;
     background-color: transparent;
 }
 
@@ -3130,8 +3130,8 @@ fieldset:disabled a.btn {
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show>.btn-outline-dark.dropdown-toggle {
     color: #fff;
-    background-color: #1F2641;
-    border-color: #1F2641;
+    background-color: #155763;
+    border-color: #155763;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
@@ -5255,7 +5255,7 @@ a.badge-light.focus {
 
 .badge-dark {
     color: #fff;
-    background-color: #1F2641;
+    background-color: #155763;
 }
 
 a.badge-dark:hover,
@@ -6399,7 +6399,7 @@ a.close.disabled {
     padding: 0.5rem 0.75rem;
     margin-bottom: 0;
     font-size: 1rem;
-    color: #1F2641;
+    color: #155763;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ebebeb;
     border-top-left-radius: calc(0.3rem - 1px);
@@ -6754,7 +6754,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    background-color: #1F2641 !important;
+    background-color: #155763 !important;
 }
 
 a.bg-dark:hover,
@@ -6841,7 +6841,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-    border-color: #1F2641 !important;
+    border-color: #155763 !important;
 }
 
 .border-white {
@@ -10410,7 +10410,7 @@ a.text-light:focus {
 }
 
 .text-dark {
-    color: #1F2641 !important;
+    color: #155763 !important;
 }
 
 a.text-dark:hover,
@@ -10623,12 +10623,12 @@ a:focus,
 a.active {
     text-decoration: none;
     outline: none;
-    color: #2AD588;
+    color: #9dc938;
 }
 
 b,
 strong {
-    color: #1F2641;
+    color: #155763;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
@@ -10896,7 +10896,7 @@ strong {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-color: #2AD588;
+    background-color: #9dc938;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
@@ -11007,20 +11007,20 @@ strong {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 0px;
-    color: #2AD588;
+    color: #9dc938;
 }
 
 .page_title p {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 0px;
-    color: #2AD588;
+    color: #9dc938;
 }
 
 .page_title p span {
     line-height: 30px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
     margin-left: 10px;
     opacity: 1;
 }
@@ -11082,7 +11082,7 @@ strong {
 
 #toast-container .progress_count {
     position: absolute;
-    color: #1F2641;
+    color: #155763;
     font-size: 18px;
     left: 36px;
     text-align: center;
@@ -11155,7 +11155,7 @@ strong {
     font-size: 30px;
     line-height: 45px;
     margin-bottom: 10px;
-    color: #1F2641;
+    color: #155763;
     font-weight: 600;
 }
 
@@ -11326,7 +11326,7 @@ button.navbar-toggler {
     border: 1px solid rgba(255, 255, 255, 0.08);
     display: inline-block;
     margin-right: 15px;
-    background: #2AD588;
+    background: #9dc938;
     color: #fff;
     text-align: center;
     padding: 4px 0;
@@ -11346,7 +11346,7 @@ button.navbar-toggler {
     margin-right: 30px;
     font-size: 18px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -11362,7 +11362,7 @@ button.navbar-toggler {
 }
 
 .profile_log .user .arrow {
-    color: #1F2641;
+    color: #155763;
 }
 
 .profile_log .user .arrow i {
@@ -11414,7 +11414,7 @@ button.navbar-toggler {
 .profile_log .dropdown-menu .dropdown-item i {
     margin-right: 10px;
     font-size: 22px;
-    color: #2AD588;
+    color: #9dc938;
     font-weight: bold;
 }
 
@@ -11422,7 +11422,7 @@ button.navbar-toggler {
 .profile_log .dropdown-menu .dropdown-item:focus,
 .profile_log .dropdown-menu .dropdown-item:active {
     color: #fff;
-    background: #2AD588;
+    background: #9dc938;
 }
 
 .profile_log .dropdown-menu .dropdown-item:hover i,
@@ -11497,7 +11497,7 @@ button.navbar-toggler {
 .footer-link a:hover,
 .footer-link a:focus,
 .footer-link a.active {
-    color: #2AD588;
+    color: #9dc938;
 }
 
 .sidebar {
@@ -11517,7 +11517,7 @@ button.navbar-toggler {
         bottom: 0;
         width: 100%;
         height: 50px;
-        background: #2AD588;
+        background: #9dc938;
         padding: 0px;
     }
 }
@@ -11542,7 +11542,7 @@ button.navbar-toggler {
 .sidebar .brand-logo span {
     font-weight: 700;
     font-size: 18px;
-    color: #1F2641;
+    color: #155763;
 }
 
 .menu {
@@ -11586,7 +11586,7 @@ button.navbar-toggler {
 .menu ul li a:hover,
 .menu ul li a:focus,
 .menu ul li a:active {
-    color: #2AD588;
+    color: #9dc938;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11599,7 +11599,7 @@ button.navbar-toggler {
 }
 
 .menu ul li a.active i {
-    color: #2AD588;
+    color: #9dc938;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11610,7 +11610,7 @@ button.navbar-toggler {
 }
 
 .menu ul li a.active .nav-text {
-    color: #2AD588;
+    color: #9dc938;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11869,7 +11869,7 @@ button.navbar-toggler {
 .form-group label {
     font-size: 16px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
     margin-bottom: 15px;
     background: transparent;
     border-color: rgba(55, 55, 89, 0.1);
@@ -11882,7 +11882,7 @@ button.navbar-toggler {
     padding: 0px 22px;
     font-size: 16px;
     font-weight: 400;
-    color: #1F2641;
+    color: #155763;
     transition: all 0.3s ease-in-out;
     background: #F6F8FE;
 }
@@ -11896,11 +11896,11 @@ button.navbar-toggler {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #1F2641;
+    color: #155763;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #1F2641;
+    color: #155763;
 }
 
 .form-control::placeholder {
@@ -11911,7 +11911,7 @@ button.navbar-toggler {
     box-shadow: none !important;
     outline: none;
     border-color: rgba(55, 55, 89, 0.1);
-    color: #1F2641;
+    color: #155763;
     background: #F6F8FE;
 }
 
@@ -11920,8 +11920,8 @@ button.navbar-toggler {
 .form-control.active {
     box-shadow: none !important;
     outline: none;
-    border-color: #2AD588;
-    color: #1F2641;
+    border-color: #9dc938;
+    color: #155763;
     background: #F6F8FE;
 }
 
@@ -11934,7 +11934,7 @@ input:-internal-autofill-selected {
 .input-group-text {
     font-size: 16px !important;
     padding: 5px 15px;
-    background: #0C2C3B;
+    background: #155763;
     margin-bottom: 0px !important;
     color: #fff;
     border-color: rgba(55, 55, 89, 0.1);
@@ -12017,7 +12017,7 @@ input:-internal-autofill-selected {
     height: 50px;
     border: 1px solid rgba(55, 55, 89, 0.1);
     border-radius: 5px;
-    color: #1F2641;
+    color: #155763;
 }
 
 .file-upload-wrapper:after {
@@ -12045,7 +12045,7 @@ input:-internal-autofill-selected {
     right: 0;
     display: inline-block;
     height: 48px;
-    background: #2AD588;
+    background: #9dc938;
     color: #fff;
     font-weight: 500;
     z-index: 25;
@@ -12058,7 +12058,7 @@ input:-internal-autofill-selected {
 }
 
 .file-upload-wrapper:hover:before {
-    background: #0C2C3B;
+    background: #155763;
 }
 
 .file-upload-wrapper input {
@@ -12116,12 +12116,12 @@ table {
 }
 
 .ui-datepicker-calendar tbody td a:hover {
-    background-color: #2AD588;
+    background-color: #9dc938;
     color: white;
 }
 
 .ui-datepicker-calendar tbody td a.ui-state-active {
-    background-color: #2AD588;
+    background-color: #9dc938;
     color: white;
 }
 
@@ -12396,7 +12396,7 @@ button,
 
 .cookie_alert p {
     font-weight: 400;
-    color: #1F2641;
+    color: #155763;
     line-height: 26px;
 }
 
@@ -12649,7 +12649,7 @@ button,
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
 }
 
 .chart-stat {
@@ -13259,7 +13259,7 @@ button,
     display: inline-block;
     margin-right: 15px;
     background: #ffffff;
-    color: #1f2641;
+    color: #155763;
     text-align: center;
     padding: 4px 0;
     box-shadow: 0px 6px 6px rgb(55 55 89 / 12%);
@@ -14097,7 +14097,7 @@ a.text-light:focus {
     color: #cbd3da !important;
 }
 .text-dark {
-    color: #1F2641 !important;
+    color: #155763 !important;
 }
 a.text-dark:hover,
 a.text-dark:focus {
@@ -14235,7 +14235,7 @@ a.text-dark:focus {
     padding: 0;
 }
 body {
-    font-family: 'Glegoo', serif;
+    font-family: 'Readex Pro';
     font-size: 16px;
     /* font-weight: 700 !important; */
     color: #8691b4;
@@ -14292,11 +14292,11 @@ a:focus,
 a.active {
     text-decoration: none;
     outline: none;
-    color: #2AD588;
+    color: #9dc938;
 }
 b,
 strong {
-    color: #1F2641;
+    color: #155763;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     .col-xxl-1 {
@@ -14522,7 +14522,7 @@ strong {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-color: #2AD588;
+    background-color: #9dc938;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
@@ -14621,18 +14621,18 @@ strong {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 0px;
-    color: #2AD588;
+    color: #9dc938;
 }
 .page_title p {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 0px;
-    color: #2AD588;
+    color: #9dc938;
 }
 .page_title p span {
     line-height: 30px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
     margin-left: 10px;
     opacity: 1;
 }
@@ -14684,7 +14684,7 @@ strong {
 }
 #toast-container .progress_count {
     position: absolute;
-    color: #1F2641;
+    color: #155763;
     font-size: 18px;
     left: 36px;
     text-align: center;
@@ -14745,7 +14745,7 @@ strong {
     font-size: 30px;
     line-height: 45px;
     margin-bottom: 10px;
-    color: #1F2641;
+    color: #155763;
     font-weight: 600;
 }
 @media only screen and (max-width: 1199px) {
@@ -14896,7 +14896,7 @@ button.navbar-toggler {
     0.08);
     display: inline-block;
     margin-right: 15px;
-    background: #2AD588;
+    background: #9dc938;
     color: #fff;
     text-align: center;
     padding: 4px 0;
@@ -14913,7 +14913,7 @@ button.navbar-toggler {
     margin-right: 30px;
     font-size: 18px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
 }
 @media only screen and (max-width: 1199px) {
     .profile_log .user .name {
@@ -14926,7 +14926,7 @@ button.navbar-toggler {
     }
 }
 .profile_log .user .arrow {
-    color: #1F2641;
+    color: #155763;
 }
 .profile_log .user .arrow i {
     font-weight: bold;
@@ -14976,14 +14976,14 @@ button.navbar-toggler {
 .profile_log .dropdown-menu .dropdown-item i {
     margin-right: 10px;
     font-size: 22px;
-    color: #2AD588;
+    color: #9dc938;
     font-weight: bold;
 }
 .profile_log .dropdown-menu .dropdown-item:hover,
 .profile_log .dropdown-menu .dropdown-item:focus,
 .profile_log .dropdown-menu .dropdown-item:active {
     color: #fff;
-    background: #2AD588;
+    background: #9dc938;
 }
 .profile_log .dropdown-menu .dropdown-item:hover i,
 .profile_log .dropdown-menu .dropdown-item:focus i,
@@ -15046,7 +15046,7 @@ button.navbar-toggler {
 .footer-link a:hover,
 .footer-link a:focus,
 .footer-link a.active {
-    color: #2AD588;
+    color: #9dc938;
 }
 .sidebar {
     background: transparent;
@@ -15064,7 +15064,7 @@ button.navbar-toggler {
         bottom: 0;
         width: 100%;
         height: 50px;
-        background: #2AD588;
+        background: #9dc938;
         padding: 0px;
     }
 }
@@ -15085,7 +15085,7 @@ button.navbar-toggler {
 .sidebar .brand-logo span {
     font-weight: 700;
     font-size: 18px;
-    color: #1F2641;
+    color: #155763;
 }
 .menu {
     margin-top: 30px;
@@ -15126,7 +15126,7 @@ button.navbar-toggler {
 .menu ul li a:hover,
 .menu ul li a:focus,
 .menu ul li a:active {
-    color: #2AD588;
+    color: #9dc938;
 }
 @media only screen and (max-width: 767px) {
     .menu ul li a:hover,
@@ -15137,7 +15137,7 @@ button.navbar-toggler {
     }
 }
 .menu ul li a.active i {
-    color: #2AD588;
+    color: #9dc938;
 }
 @media only screen and (max-width: 767px) {
     .menu ul li a.active i {
@@ -15146,7 +15146,7 @@ button.navbar-toggler {
     }
 }
 .menu ul li a.active .nav-text {
-    color: #2AD588;
+    color: #9dc938;
 }
 @media only screen and (max-width: 767px) {
     .menu ul li a.active .nav-text {
@@ -15388,7 +15388,7 @@ button.navbar-toggler {
 .form-group label {
     font-size: 16px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
     margin-bottom: 15px;
     background: transparent;
     border-color: rgba(55,
@@ -15406,7 +15406,7 @@ button.navbar-toggler {
     padding: 0px 22px;
     font-size: 16px;
     font-weight: 400;
-    color: #1F2641;
+    color: #155763;
     transition: all 0.3s ease-in-out;
     background: #F6F8FE;
 }
@@ -15417,10 +15417,10 @@ button.navbar-toggler {
     margin-top: 0;
 }
 .form-control::-webkit-input-placeholder {
-    color: #1F2641;
+    color: #155763;
 }
 .form-control:-ms-input-placeholder {
-    color: #1F2641;
+    color: #155763;
 }
 .form-control::placeholder {
     color: #A7A7A7;
@@ -15432,7 +15432,7 @@ button.navbar-toggler {
     55,
     89,
     0.1);
-    color: #1F2641;
+    color: #155763;
     background: #F6F8FE;
 }
 .form-control:focus,
@@ -15440,8 +15440,8 @@ button.navbar-toggler {
 .form-control.active {
     box-shadow: none !important;
     outline: none;
-    border-color: #2AD588;
-    color: #1F2641;
+    border-color: #9dc938;
+    color: #155763;
     background: #F6F8FE;
 }
 input:-internal-autofill-selected {
@@ -15453,7 +15453,7 @@ input:-internal-autofill-selected {
 .input-group-text {
     font-size: 16px !important;
     padding: 5px 15px;
-    background: #0C2C3B;
+    background: #155763;
     margin-bottom: 0px !important;
     color: #fff;
     border-color: rgba(55,
@@ -15533,7 +15533,7 @@ input:-internal-autofill-selected {
     89,
     0.1);
     border-radius: 5px;
-    color: #1F2641;
+    color: #155763;
 }
 .file-upload-wrapper:after {
     content: attr(data-text);
@@ -15559,7 +15559,7 @@ input:-internal-autofill-selected {
     right: 0;
     display: inline-block;
     height: 48px;
-    background: #2AD588;
+    background: #9dc938;
     color: #fff;
     font-weight: 500;
     z-index: 25;
@@ -15571,7 +15571,7 @@ input:-internal-autofill-selected {
     border-radius: 0 5px 5px 0;
 }
 .file-upload-wrapper:hover:before {
-    background: #0C2C3B;
+    background: #155763;
 }
 .file-upload-wrapper input {
     opacity: 0;
@@ -15625,11 +15625,11 @@ table {
     text-decoration: none;
 }
 .ui-datepicker-calendar tbody td a:hover {
-    background-color: #2AD588;
+    background-color: #9dc938;
     color: white;
 }
 .ui-datepicker-calendar tbody td a.ui-state-active {
-    background-color: #2AD588;
+    background-color: #9dc938;
     color: white;
 }
 .ui-datepicker-header a.ui-corner-all {
@@ -15875,7 +15875,7 @@ button,
 }
 .cookie_alert p {
     font-weight: 400;
-    color: #1F2641;
+    color: #155763;
     line-height: 26px;
 }
 .cookie_alert p a {
@@ -16110,7 +16110,7 @@ button,
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 500;
-    color: #1F2641;
+    color: #155763;
 }
 .chart-stat {
     background: transparent;
@@ -16675,7 +16675,7 @@ button,
     display: inline-block;
     margin-right: 15px;
     background: #ffffff;
-    color: #1f2641;
+    color: #155763;
     text-align: center;
     padding: 4px 0;
     box-shadow: 0px 6px 6px rgb(55 55 89 / 12%);
