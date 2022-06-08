@@ -29,8 +29,9 @@
                             {{ $message }}
                             <br>
                             Can you please contact AlgoSports Group at <span
-                                class="text-dark">info@algosportsgroup.com</span> or by calling us on <br> <span
-                                class="text-dark">0800 0622 952</span>.
+                                class="text-dark">{{ env('MAIL_FROM_ADDRESS') }}</span> or by calling us on <br> <span
+                                class="text-dark">{{ env('PHONE_NUMBER') }}
+                            </span>.
                         </div>
                     @enderror
                     <div class="auth-form card">
