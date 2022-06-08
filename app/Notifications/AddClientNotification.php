@@ -44,7 +44,7 @@ class AddClientNotification extends Notification
     {
 
         return (new MailMessage)
-            ->subject('Welcome to AlgoSports Group')
+            ->subject('Welcome to ' . env("APP_NAME"))
             ->view('admin.emails.add_client_email', ["client" => $this->client_data]);
     }
 
