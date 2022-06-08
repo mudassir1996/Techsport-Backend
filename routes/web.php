@@ -37,9 +37,9 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-Route::get('/link-storage', function () {
-   Artisan::call('storage:link');
-});
+// Route::get('/link-storage', function () {
+//    Artisan::call('storage:link');
+// });
 
 Route::middleware(['auth'])->group(function () {
    Route::get('/', function () {
