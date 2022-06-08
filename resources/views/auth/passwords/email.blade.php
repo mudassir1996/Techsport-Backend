@@ -6,8 +6,8 @@
             <div class="row justify-content-center h-100 align-items-center">
                 <div class="col-xl-5 col-md-6">
                     <div class="mini-logo text-center my-5">
-                        <a href="{{ env('APP_URL') }}"><img class="w-50" src="{{ asset('images/logo.png') }}"
-                                alt=""></a>
+                        <a href="{{ env('WEBSITE_URL') }}"><img class="w-50"
+                                src="{{ asset('images/logo.png') }}" alt=""></a>
                     </div>
                     <div class="auth-form card">
                         <div class="card-header justify-content-center">
