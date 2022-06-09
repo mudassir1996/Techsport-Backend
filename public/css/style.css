@@ -15704,8 +15704,8 @@ button,
     display: inline-block;
     border-radius: 6px;
     min-width: 130px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
     padding: 10px;
 }
 .table th {
