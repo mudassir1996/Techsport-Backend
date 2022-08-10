@@ -55,7 +55,7 @@
                             data-date=""
                             data-league="39"
                             data-team=""
-                            data-season="2021"
+                            data-season="2022"
                             data-last="20"
                             data-next=""
                             data-key="5a064d629amsh0e00769af305bdap180755jsnb03e3a7f19f0"
